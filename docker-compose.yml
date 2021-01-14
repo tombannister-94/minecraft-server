@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  mc_survival:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - "/home/tom/code/minecraft-server/data/mc_survival:/data"
+    environment:
+      # Accept EULA
+      EULA: "TRUE"
+
+      # Set world difficulty
+      DIFFICULTY: "normal"
+
+      # Set server message of the day
+      MOTD: "A vanilla, survival server hosted by \u00A7tombannister-94"
+
+      # Set server icon
+      ICON: "https://cdn.frankerfacez.com/emoticon/210748/1"
+
+    restart: always
