@@ -15,7 +15,7 @@ services:
       DIFFICULTY: "normal"
 
       # Set server message of the day
-      MOTD: "A vanilla, survival server hosted by \u00A7tombannister-94"
+      MOTD: "A vanilla, survival server hosted by tombannister-94"
 
       # Set server icon
       ICON: "https://cdn.frankerfacez.com/emoticon/210748/1"
